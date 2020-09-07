@@ -16,4 +16,8 @@ describe("sum", () => {
   it("it should return 0 when no argument is passed", () => {
     expect(myMath.sum()).toBe(0);
   });
+
+  it("it should fail", () => {
+    expect(true).toBe(false);
+  });
 });
