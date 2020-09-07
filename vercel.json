@@ -1,0 +1,4 @@
+{
+  "builds": [{ "src": "src/ping.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "ping", "dest": "/src/ping.js" }]
+}
